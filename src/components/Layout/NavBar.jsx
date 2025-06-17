@@ -27,19 +27,19 @@ const NavBar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active fw-light fs-5" href="/">Home</a>
+              <a className="nav-link active fw-bold fs-6 hover-effect" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-light fs-5" href="/about">About</a>
+              <a className="nav-link fw-bold fs-6 hover-effect" href="/about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-light fs-5" href="/career">Career</a> {/* Fixed spelling from "Carrier" to "Career" */}
+              <a className="nav-link fw-bold fs-6 hover-effect" href="/career">Career</a> {/* Fixed spelling from "Carrier" to "Career" */}
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-light fs-5" href="/services">Services</a>
+              <a className="nav-link fw-bold fs-6 hover-effect" href="/services">Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-light fs-5" href="/contact">Contact</a>
+              <a className="nav-link fw-bold fs-6 hover-effect" href="/contact">Contact</a>
             </li>
           </ul>
         </div>

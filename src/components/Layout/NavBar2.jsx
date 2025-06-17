@@ -1,62 +1,68 @@
-
 import { FaArrowRight, FaBookOpen, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
 const NavBar2 = () => {
   return (
-    <div className="container-fluid px-5 py-0" style={{ backgroundColor: "#ef6026", color: "white" }}>
-      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 gap-3 fs-4">
+    <div className="container-fluid px-5" style={{ backgroundColor: "#ef6026", color: "white" }}>
+      <header className="d-flex flex-column flex-md-row align-items-center justify-content-between py-2 px-3">
+        {/* Social Icons Row (Top on mobile) */}
+        <ul className="nav order-1 order-md-0 mb-1 mb-md-0 gap-2 gap-md-3">
           <li>
-            <a className="hover-effect"
-              href="https://www.facebook.com" 
+            <a className="social-icon"
+              href="https://deltawaresolution.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              style={{ color: "white" }}
+              aria-label="Facebook"
             >
-              <FaFacebook />  
-            </a>
-          </li>
-          <li >
-            <a className="hover-effect"
-              href="https://www.youtube.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ color: "white" }}
-            >
-              <FaYoutube />
+              <FaFacebook size={18} />  
             </a>
           </li>
           <li>
-            <a className="hover-effect"
+            <a className="social-icon"
+              href="https://www.youtube.com/@DeltawareSolution" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+            >
+              <FaYoutube size={18} />
+            </a>
+          </li>
+          <li>
+            <a className="social-icon"
               href="https://www.linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              style={{ color: "white" }}
+              aria-label="LinkedIn"
             >
-              <FaLinkedin /> 
+              <FaLinkedin size={18} /> 
             </a>
           </li>
           <li>
-            <a className="hover-effect"
+            <a className="social-icon"
               href="mailto:example@example.com" 
-              style={{ color: "white" }}
+              aria-label="Email"
             >
-             <IoMdMail />
+              <IoMdMail size={18} />
             </a>
           </li>
         </ul>
 
+        {/* Center Text (Middle on mobile) */}
+        <div className="order-0 order-md-1 text-center my-1 my-md-0 mx-auto mx-md-0">
+          <p className="m-0 fw-bold" style={{ fontSize: "clamp(0.75rem, 2.5vw, 0.9rem)" }}>
+            Do Your Training under the guidance of Experts <FaBookOpen size={14} />
+          </p>
+        </div>
 
-        <div > <p className="fw-bold ">Do Your Training under the guidance of Experts  {<FaBookOpen />}</p></div>
-
-        <div className="col-md-3 text-end hover-effect">
+        {/* Register Button (Bottom on mobile) */}
+        <div className="order-2 order-md-2 text-center text-md-end mt-1 mt-md-0">
           <button 
-  type="button" 
-  className="BTN  fw-bold " 
->
-  Register Here!! {<FaArrowRight />}
-</button>
+            type="button" 
+            className="register-btn" 
+            aria-label="Register"
+          >
+            Register Here!! <FaArrowRight size={12} />
+          </button>
         </div>
       </header>
     </div>

@@ -1,9 +1,9 @@
-import NavBar2 from "./NavBar2";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-   <> <NavBar2/>
-    <nav className="navbar navbar-expand-lg navbar-light px-5" style={{ backgroundColor: "#ffffff" }}>
+   <>
+    <nav className="navbar navbar-expand-lg navbar-light px-5 md-px-3" style={{ backgroundColor: "#ffffff" }}>
       <div className="container-fluid">
         {/* Logo/Brand - Left Side */}
         <a className="navbar-brand" href="/">
@@ -26,20 +26,26 @@ const NavBar = () => {
         {/* Nav Links - Right Side */}
         <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
           <ul className="navbar-nav">
+
             <li className="nav-item">
-              <a className="nav-link active fw-bold fs-6 hover-effect" href="/">Home</a>
+              <NavLink  to="/"  className="nav-link active fw-bold fs-6 hover-effect" >
+              Home
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink to="/about" className="nav-link fw-bold fs-6 hover-effect">About</NavLink>
+            </li>
+
+
+            <li className="nav-item">
+              <NavLink className="nav-link fw-bold fs-6 hover-effect" to="/career">Career</NavLink> {/* Fixed spelling from "Carrier" to "Career" */}
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-bold fs-6 hover-effect" href="/about">About</a>
+              <NavLink className="nav-link fw-bold fs-6 hover-effect" to="/services">Services</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-bold fs-6 hover-effect" href="/career">Career</a> {/* Fixed spelling from "Carrier" to "Career" */}
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold fs-6 hover-effect" href="/services">Services</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold fs-6 hover-effect" href="/contact">Contact</a>
+              <NavLink className="nav-link fw-bold fs-6 hover-effect" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

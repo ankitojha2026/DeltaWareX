@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io";
 
 const NavBar2 = () => {
   return (
-    <div className="container-fluid px-5" style={{ backgroundColor: "#ef6026", color: "white" }}>
+    <div className="container-fluid px-5" style={{ backgroundColor: "#212529", color: "white" }}>
       <header className="d-flex flex-column flex-md-row align-items-center justify-content-between py-2 px-3">
         {/* Social Icons Row (Top on mobile) */}
         <ul className="nav order-1 order-md-0 mb-1 mb-md-0 gap-2 gap-md-3">

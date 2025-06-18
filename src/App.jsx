@@ -11,10 +11,6 @@ import About from './pages/About';
 import Career from './pages/Career';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
-
-
-
-
 // here i'm using react-router-dom 
 // and createBrowserRouter to create a router
 const rounter = createBrowserRouter([
@@ -39,19 +35,10 @@ const rounter = createBrowserRouter([
          {path: 'contact', element: <Contact />},
         // {path: 'career/:id', element: <CarrerOpt/>},
     ]
-
     }
-
-
-
-
   ]);
 
-
-
 function App() {
-
-
   return (
 <RouterProvider router={rounter} >
 

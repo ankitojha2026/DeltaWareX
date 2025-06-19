@@ -2,7 +2,7 @@ import React from 'react';
 import apps from '../../API/ServisecsAPIs/servicesData.json';
 import { motion } from 'framer-motion';
 
-function AppTypes() {
+function FutureTechnology () {
   const zoomVariants = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1 }
@@ -49,4 +49,4 @@ function AppTypes() {
   );
 }
 
-export default AppTypes;
+export default FutureTechnology;

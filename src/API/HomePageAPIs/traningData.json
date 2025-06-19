@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Training",
+    "icon": "FaUsers",
+    "description": "We provide the best summer training on the latest technologies for B.Tech (CS/IT/EC/EE/ME/CE), BCA, MCA students in June & July."
+  },
+  {
+    "id": 2,
+    "title": "Winter Training",
+    "icon": "FaSnowflake",
+    "description": "We provide the best winter training on the latest technologies for B.Tech (CS/IT/EC/EE/ME/CE), BCA, MCA students in December & January."
+  },
+  {
+    "id": 3,
+    "title": "Vocational Training",
+    "icon": "FaTools",
+    "description": "Softpro Learning Center organizes vocational training for Diploma (CS/IT/EC/EE/ME/CE), PGDCA, PGDWO students every year."
+  },
+  {
+    "id": 4,
+    "title": "Faculty Development Program",
+    "icon": "FaChalkboardTeacher",
+    "description": "Industry-academic interaction program to fulfill the production of practical knowledge among faculties."
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Training",
+    "icon": "FaBullhorn",
+    "description": "Being a dynamic and technology-driven industry, digital marketing offers a diverse array of employment opportunities."
+  },
+  {
+    "id": 6,
+    "title": "SEO Training",
+    "icon": "FaSearch",
+    "description": "Search Engine Optimization (SEO) training is a way to learn strategies and techniques to improve a website's visibility on search engines like Google."
+  },
+  {
+    "id": 7,
+    "title": "SAP Training",
+    "icon": "FaDatabase",
+    "description": "SAP usually stands for Systems, Applications, and Products in Data Processing. It combines instruction in HR S/W Management."
+  },
+  {
+    "id": 8,
+    "title": "Android and iOS Training",
+    "icon": "FaMobileAlt",
+    "description": "Training in Android and iOS development equips you with the skills to build mobile applications for these popular platforms."
+  }
+]

@@ -9,6 +9,7 @@ body {
     color: #F1F5F9; /* Light default text */
 }
 
+
 .heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -197,6 +198,8 @@ h3 {
     transition: all 0.3s ease;
     min-height: 100%;
     height: 100%;
+    box-shadow: 0 8px 20px rgba(9, 232, 187, 0.447);
+  
 }
 
 .custom-card:hover {
@@ -233,11 +236,12 @@ h3 {
   transition: all 0.3s ease-in-out;
   border: 1px solid #d31b62;
    border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+box-shadow: 0 8px 20px rgba(228, 7, 7, 0.609);
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .pricing-card:hover {
@@ -246,7 +250,7 @@ h3 {
   color:white;
   border: 1px rgb(203, 30, 10) solid;
   border-radius: 20px;
- box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+box-shadow: 0 8px 20px rgba(228, 7, 7, 0.609);
 }
 
 .pricing-swiper {
@@ -264,4 +268,98 @@ h3 {
 
 .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+
+
+/* home page css start from here    */
+
+
+
+
+.training-card-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(7, 191, 228, 0.258);
+  transition: all 0.1s ease;
+  border: none;
+}
+
+.training-card-box:hover {
+  background-color: #1E1E2F;
+  color: #fff;
+}
+
+.training-card-box:hover .training-card-text,
+.training-card-box:hover .training-read-more,
+.training-card-box:hover .training-card-icon {
+  color: #fff;
+}
+
+.training-card-title {
+  font-weight: 700;
+  color: #d31b62;
+  transition: color 0.1s ease;
+}
+
+.training-card-text {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+/* .training-read-more {
+  display: inline-block;
+  margin-top: 10px;
+  border : 1px solid #d31b62;
+  font-weight: 600;
+  color: #d31b62;
+  text-decoration: none;
+  transition: color 0.3s ease;
+} */
+
+.training-card-icon {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.custom-shadow {
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(238, 215, 87, 0.778); /* smooth orange glow */
+  transition: all 0.3s ease;
+}
+
+.custom-shadow:hover {
+  box-shadow: 0 12px 25px rgba(255, 107, 0, 0.35);
+  background-color: #fff3e9;
+}
+
+
+/* Swiper Card Zoom Effect for Center */
+.swiper-slide {
+  transform: scale(0.9);
+  transition: transform 0.4s ease-in-out;
+}
+.swiper-slide-active {
+  transform: scale(1.05);
+}
+
+/* Pagination Dots Custom */
+.swiper-pagination-bullet {
+  background-color: #ff6b00;
+  opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff0000;
+  opacity: 1;
+}
+
+/* Card Design */
+.course-card {
+  min-height: 450px;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+.course-card:hover {
+  transform: translateY(-6px);
 }

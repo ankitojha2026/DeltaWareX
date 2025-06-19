@@ -223,3 +223,45 @@ h3 {
     height: 180px;
     object-fit: cover;
 }
+
+/* pricing-card  */
+.pricing-card {
+  width: 100%;
+  max-width: 320px;
+  min-height: 450px;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #d31b62;
+   border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-card:hover {
+
+  background-color: black;
+  color:white;
+  border: 1px rgb(203, 30, 10) solid;
+  border-radius: 20px;
+ box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-swiper {
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullets {
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #dc3545;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}

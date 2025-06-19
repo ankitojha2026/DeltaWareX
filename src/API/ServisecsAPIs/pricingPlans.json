@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Startup Plan",
+    "features": [
+      "Android & iOS app for users",
+      "Android & iOS app for sellers",
+      "Master Admin",
+      "Support for 6 months"
+    ],
+    "price": "₹50,000"
+  },
+  {
+    "title": "Business Plan",
+    "features": [
+      "Everything in Startup Plan",
+      "Custom Branding",
+      "Marketing Dashboard",
+      "1 Year Support"
+    ],
+    "price": "₹90,000"
+  },
+  {
+    "title": "Enterprise Plan",
+    "features": [
+      "All Business Plan Features",
+      "Dedicated Account Manager",
+      "Custom Integrations",
+      "24/7 Premium Support"
+    ],
+    "price": "₹1,50,000"
+  },
+  {
+    "title": "MVP Plan",
+    "features": [
+      "Basic App Setup",
+      "1 Admin Dashboard",
+      "Email Support",
+      "3 Months Maintenance"
+    ],
+    "price": "₹25,000"
+  }
+]

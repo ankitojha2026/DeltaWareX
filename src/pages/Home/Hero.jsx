@@ -14,7 +14,7 @@ const Hero = () => {
           viewport={{ once: true }}
         >
           <img
-            src="/public/MobileImage/hero.png"
+            src="/MobileImage/hero.png"
             className="d-block mx-lg-auto rounded-4 img-fluid"
             alt="hero image"
             width="700"

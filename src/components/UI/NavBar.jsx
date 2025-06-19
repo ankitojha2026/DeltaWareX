@@ -21,7 +21,7 @@ const NavBar = () => {
           aria-expanded="false" 
           aria-label="Toggle navigation"
         >
-          <span className=" text-light "><FiAlignJustify size={30} /></span>
+          <span className=" text-light "><FiAlignJustify size={33} /></span>
         </button>
 
         {/* Nav Links - Right Side */}

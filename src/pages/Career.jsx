@@ -70,15 +70,12 @@ const Career = () => {
             <div className="row g-4">
               {section.courses.map((course, idx) => (
                 <motion.div
-                  key={course.id}
-                  className="col-12 col-sm-6 col-md-4 col-lg-3"
-                  custom={idx}
-                  variants={cardVariant}
-                  initial="hidden"
-                  whileInView="visible"
-viewport={{ once: false, amount: 0.1 }}
-
-                >
+  key={course.id}
+  className="col-12 col-sm-6 col-md-4 col-lg-3"
+  animate={{ opacity: 1, scale: 1 }}
+  initial={{ opacity: 0, scale: 0.95 }}
+  transition={{ delay: idx * 0.05, duration: 0.4 }}
+>
                   <CourseCard
                     image={`/cources/${course.image}`}
                     title={course.title}

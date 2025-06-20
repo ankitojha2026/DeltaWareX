@@ -76,12 +76,16 @@ const Career = () => {
   initial={{ opacity: 0, scale: 0.95 }}
   transition={{ delay: idx * 0.05, duration: 0.4 }}
 >
-                  <CourseCard
-                    image={`/cources/${course.image}`}
-                    title={course.title}
-                    description={course.subtitle}
-                    rating={course.rating}
-                  />
+                 <CourseCard
+  image={`/cources/${course.image}`}
+  title={course.title}
+  subtitle={course.subtitle}
+  description={course.description} // Pass full description
+  rating={course.rating}
+  points={course.features}
+  price={course.price}
+/>
+
                 </motion.div>
               ))}
             </div>

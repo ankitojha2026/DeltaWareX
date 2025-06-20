@@ -1,129 +1,258 @@
-[
+[{
+  "section": "Our Futuristic Technologies",
+  "courses": [
+    {
+      "id": 1,
+      "title": "Cyber Security",
+      "subtitle": "Certification",
+      "image": "cyber_security.jpg",
+      "rating": 4,
+      "description": "Learn how to protect digital infrastructure, networks, and data from cyber threats, hacking, and data breaches. This course covers ethical hacking, network security, and incident response.",
+      "features": [
+        "Hands-on ethical hacking labs",
+        "Security tools like Wireshark & Metasploit",
+        "Network security, firewalls, and risk management",
+        "ISO & CISSP standard guidance"
+      ],
+      "price": "₹8,999"
+    },
+    {
+      "id": 2,
+      "title": "Artificial Intelligence",
+      "subtitle": "Certification",
+      "image": "artificial_intelligence.jpg",
+      "rating": 5,
+      "description": "Master AI fundamentals including neural networks, natural language processing, deep learning, and real-world AI applications. Designed for future AI engineers.",
+      "features": [
+        "Neural networks & deep learning",
+        "NLP & computer vision basics",
+        "Projects using TensorFlow and PyTorch",
+        "Real-world datasets & case studies"
+      ],
+      "price": "₹12,499"
+    },
+    {
+      "id": 3,
+      "title": "Cloud Computing with AWS",
+      "subtitle": "Certification",
+      "image": "cloud_computing.jpg",
+      "rating": 5,
+      "description": "Learn how to deploy, manage, and scale applications on the cloud using Amazon Web Services. Covers EC2, S3, RDS, IAM, and Lambda functions.",
+      "features": [
+        "AWS account & hands-on labs",
+        "Real-time project deployment",
+        "Auto-scaling, Elastic Load Balancer",
+        "AWS CLI & CloudFormation basics"
+      ],
+      "price": "₹10,999"
+    },
+    {
+      "id": 4,
+      "title": "Python with Machine Learning",
+      "subtitle": "Certification",
+      "image": "python_ml.jpg",
+      "rating": 4,
+      "description": "A practical course to learn machine learning models using Python, covering regression, classification, clustering, and real datasets.",
+      "features": [
+        "Pandas, NumPy, scikit-learn",
+        "Linear & Logistic Regression",
+        "K-Means, Decision Trees, SVM",
+        "Mini machine learning projects"
+      ],
+      "price": "₹9,499"
+    }
+  ]
+}
+,  {
+  "section": "Our Trending Technologies",
+  "courses": [
+    {
+      "id": 5,
+      "title": "Python with Django",
+      "subtitle": "Certification",
+      "image": "python_django.jpg",
+      "rating": 5,
+      "description": "Develop full-stack web applications using Django – the most popular Python framework. Learn backend, APIs, templating, and ORM.",
+      "features": [
+        "Django Models, Views, Templates (MVT)",
+        "User authentication system",
+        "REST API with Django Rest Framework",
+        "Live project deployment on cloud"
+      ],
+      "price": "₹7,999"
+    },
+    {
+      "id": 6,
+      "title": "Python with Data Science",
+      "subtitle": "Certification",
+      "image": "python_data_science.jpg",
+      "rating": 5,
+      "description": "Become a data expert by mastering Python for data analysis, visualization, and predictive modeling using real-life data.",
+      "features": [
+        "Data cleaning & visualization",
+        "Jupyter, Matplotlib, Seaborn",
+        "ML basics with scikit-learn",
+        "Real-time capstone project"
+      ],
+      "price": "₹8,499"
+    },
+    {
+      "id": 7,
+      "title": "Training on AutoCAD",
+      "subtitle": "Certification",
+      "image": "autocad.jpg",
+      "rating": 4,
+      "description": "Learn 2D and 3D CAD design using AutoCAD for architecture, civil, mechanical, and electrical design projects.",
+      "features": [
+        "2D Drafting & Annotation",
+        "3D Modeling & rendering",
+        "Layouts, layers, and blocks",
+        "Industrial drawing practices"
+      ],
+      "price": "₹6,499"
+    },
+    {
+      "id": 8,
+      "title": "Training on SolidWorks",
+      "subtitle": "Certification",
+      "image": "solidworks.jpg",
+      "rating": 4,
+      "description": "Learn mechanical design and 3D modeling using SolidWorks for product development and simulation.",
+      "features": [
+        "3D Part modeling & assembly",
+        "Simulation & analysis tools",
+        "Sheet metal design & motion study",
+        "Industry-oriented assignments"
+      ],
+      "price": "₹7,499"
+    },
+    {
+      "id": 9,
+      "title": "Industrial Automation & Systems",
+      "subtitle": "Certification",
+      "image": "industrial_automation.jpg",
+      "rating": 4,
+      "description": "Understand the fundamentals of industrial automation, control systems, and sensors for manufacturing setups.",
+      "features": [
+        "Sensors, Relays, and Controllers",
+        "SCADA system overview",
+        "Pneumatics and Hydraulics basics",
+        "Hands-on practical experiments"
+      ],
+      "price": "₹9,999"
+    },
+    {
+      "id": 10,
+      "title": "PLC & SCADA",
+      "subtitle": "Certification",
+      "image": "plc_scada.jpg",
+      "rating": 5,
+      "description": "In-depth training on programmable logic controllers and SCADA systems used in industrial control processes.",
+      "features": [
+        "Ladder logic programming",
+        "HMI & SCADA panel development",
+        "Allen Bradley & Siemens PLCs",
+        "Real-time simulation projects"
+      ],
+      "price": "₹10,999"
+    },
+    {
+      "id": 11,
+      "title": "Internet of Things (IOT)",
+      "subtitle": "Certification",
+      "image": "iot.jpg",
+      "rating": 5,
+      "description": "Learn to build smart devices using sensors, microcontrollers, and cloud systems. Covers Arduino, ESP32, and IoT cloud platforms.",
+      "features": [
+        "IoT architecture & protocols",
+        "Arduino & ESP32 programming",
+        "Cloud integration (Blynk, ThingSpeak)",
+        "Hands-on IoT mini projects"
+      ],
+      "price": "₹9,499"
+    },
+    {
+      "id": 12,
+      "title": "PCB & Circuit Designing",
+      "subtitle": "Certification",
+      "image": "pcb_designing.jpg",
+      "rating": 4,
+      "description": "Design and prototype printed circuit boards (PCBs) using industry tools and standards for electronics projects.",
+      "features": [
+        "Schematic capture & layout",
+        "Multilayer PCB design",
+        "Using software like Eagle & KiCAD",
+        "Fabrication and testing basics"
+      ],
+      "price": "₹7,499"
+    }
+  ]
+}
+,
   {
-    "section": "Our Futuristic Technologies",
-    "courses": [
-      {
-        "id": 1,
-        "title": "Cyber Security",
-        "subtitle": "Certification",
-        "image": "cyber_security.jpg",
-        "rating": 4
-      },
-      {
-        "id": 2,
-        "title": "Artificial Intelligence",
-        "subtitle": "Certification",
-        "image": "artificial_intelligence.jpg",
-        "rating": 5
-      },
-      {
-        "id": 3,
-        "title": "Cloud Computing with AWS",
-        "subtitle": "Certification",
-        "image": "cloud_computing.jpg",
-        "rating": 5
-      },
-      {
-        "id": 4,
-        "title": "Python with Machine Learning",
-        "subtitle": "Certification",
-        "image": "python_ml.jpg",
-        "rating": 4
-      }
-    ]
-  },
-  {
-    "section": "Our Trending Technologies",
-    "courses": [
-      {
-        "id": 5,
-        "title": "Python with Django",
-        "subtitle": "Certification",
-        "image": "python_django.jpg",
-        "rating": 5
-      },
-      {
-        "id": 6,
-        "title": "Python with Data Science",
-        "subtitle": "Certification",
-        "image": "python_data_science.jpg",
-        "rating": 5
-      },
-      {
-        "id": 7,
-        "title": "Training on AutoCAD",
-        "subtitle": "Certification",
-        "image": "autocad.jpg",
-        "rating": 4
-      },
-      {
-        "id": 8,
-        "title": "Training on SolidWorks",
-        "subtitle": "Certification",
-        "image": "solidworks.jpg",
-        "rating": 4
-      },
-      {
-        "id": 9,
-        "title": "Industrial Automation & Systems",
-        "subtitle": "Certification",
-        "image": "industrial_automation.jpg",
-        "rating": 4
-      },
-      {
-        "id": 10,
-        "title": "PLC & SCADA",
-        "subtitle": "Certification",
-        "image": "plc_scada.jpg",
-        "rating": 5
-      },
-      {
-        "id": 11,
-        "title": "Internet of Things (IOT)",
-        "subtitle": "Certification",
-        "image": "iot.jpg",
-        "rating": 5
-      },
-      {
-        "id": 12,
-        "title": "PCB & Circuit Designing",
-        "subtitle": "Certification",
-        "image": "pcb_designing.jpg",
-        "rating": 4
-      }
-    ]
-  },
-  {
-    "section": "Our Popular Technologies",
-    "courses": [
-      {
-        "id": 13,
-        "title": "ASP .Net with MVC",
-        "subtitle": "Certification",
-        "image": "asp_net_mvc.jpg",
-        "rating": 4
-      },
-      {
-        "id": 14,
-        "title": "JAVA with JSP & SERVER Pages",
-        "subtitle": "Certification",
-        "image": "java_jsp.png",
-        "rating": 5
-      },
-      {
-        "id": 15,
-        "title": "JAVA with Spring Framework",
-        "subtitle": "Certification",
-        "image": "java_spring.png",
-        "rating": 5
-      },
-      {
-        "id": 16,
-        "title": "Android Application Development",
-        "subtitle": "Certification",
-        "image": "android_dev.png",
-        "rating": 4
-      }
-    ]
-  }
+  "section": "Our Popular Technologies",
+  "courses": [
+    {
+      "id": 13,
+      "title": "ASP .Net with MVC",
+      "subtitle": "Certification",
+      "image": "asp_net_mvc.jpg",
+      "rating": 4,
+      "description": "Learn to build enterprise web applications using ASP.NET MVC framework with C#. Covers routing, Razor views, and backend logic.",
+      "features": [
+        "C# fundamentals",
+        "Razor pages & MVC structure",
+        "SQL Server database integration",
+        "Real-world web projects"
+      ],
+      "price": "₹8,499"
+    },
+    {
+      "id": 14,
+      "title": "JAVA with JSP & SERVER Pages",
+      "subtitle": "Certification",
+      "image": "java_jsp.png",
+      "rating": 5,
+      "description": "Master Java for building server-side applications with JSP, Servlets, and JDBC connectivity.",
+      "features": [
+        "Core Java + JDBC",
+        "Servlets & JSP scripting",
+        "Tomcat server configuration",
+        "Web project with database"
+      ],
+      "price": "₹8,999"
+    },
+    {
+      "id": 15,
+      "title": "JAVA with Spring Framework",
+      "subtitle": "Certification",
+      "image": "java_spring.png",
+      "rating": 5,
+      "description": "Build modern Java applications using Spring Boot, REST APIs, and advanced features like dependency injection and JPA.",
+      "features": [
+        "Spring Core, MVC, Boot",
+        "REST API development",
+        "Spring Data JPA & MySQL",
+        "Mini-project deployment"
+      ],
+      "price": "₹9,999"
+    },
+    {
+      "id": 16,
+      "title": "Android Application Development",
+      "subtitle": "Certification",
+      "image": "android_dev.png",
+      "rating": 4,
+      "description": "Develop mobile apps from scratch using Android Studio, Java/Kotlin, and Firebase for backend support.",
+      "features": [
+        "UI/UX design principles",
+        "Activity lifecycle & intents",
+        "SQLite & Firebase integration",
+        "Google Play Store deployment guide"
+      ],
+      "price": "₹9,499"
+    }
+  ]
+}
+
 ]

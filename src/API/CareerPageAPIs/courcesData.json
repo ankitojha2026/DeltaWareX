@@ -1,0 +1,129 @@
+[
+  {
+    "section": "Our Futuristic Technologies",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Cyber Security",
+        "subtitle": "Certification",
+        "image": "cyber_security.jpg",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "title": "Artificial Intelligence",
+        "subtitle": "Certification",
+        "image": "artificial_intelligence.jpg",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "title": "Cloud Computing with AWS",
+        "subtitle": "Certification",
+        "image": "cloud_computing.jpg",
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "title": "Python with Machine Learning",
+        "subtitle": "Certification",
+        "image": "python_ml.jpg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "section": "Our Trending Technologies",
+    "courses": [
+      {
+        "id": 5,
+        "title": "Python with Django",
+        "subtitle": "Certification",
+        "image": "python_django.jpg",
+        "rating": 5
+      },
+      {
+        "id": 6,
+        "title": "Python with Data Science",
+        "subtitle": "Certification",
+        "image": "python_data_science.jpg",
+        "rating": 5
+      },
+      {
+        "id": 7,
+        "title": "Training on AutoCAD",
+        "subtitle": "Certification",
+        "image": "autocad.jpg",
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "title": "Training on SolidWorks",
+        "subtitle": "Certification",
+        "image": "solidworks.jpg",
+        "rating": 4
+      },
+      {
+        "id": 9,
+        "title": "Industrial Automation & Systems",
+        "subtitle": "Certification",
+        "image": "industrial_automation.jpg",
+        "rating": 4
+      },
+      {
+        "id": 10,
+        "title": "PLC & SCADA",
+        "subtitle": "Certification",
+        "image": "plc_scada.jpg",
+        "rating": 5
+      },
+      {
+        "id": 11,
+        "title": "Internet of Things (IOT)",
+        "subtitle": "Certification",
+        "image": "iot.jpg",
+        "rating": 5
+      },
+      {
+        "id": 12,
+        "title": "PCB & Circuit Designing",
+        "subtitle": "Certification",
+        "image": "pcb_designing.jpg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "section": "Our Popular Technologies",
+    "courses": [
+      {
+        "id": 13,
+        "title": "ASP .Net with MVC",
+        "subtitle": "Certification",
+        "image": "asp_net_mvc.jpg",
+        "rating": 4
+      },
+      {
+        "id": 14,
+        "title": "JAVA with JSP & SERVER Pages",
+        "subtitle": "Certification",
+        "image": "java_jsp.png",
+        "rating": 5
+      },
+      {
+        "id": 15,
+        "title": "JAVA with Spring Framework",
+        "subtitle": "Certification",
+        "image": "java_spring.png",
+        "rating": 5
+      },
+      {
+        "id": 16,
+        "title": "Android Application Development",
+        "subtitle": "Certification",
+        "image": "android_dev.png",
+        "rating": 4
+      }
+    ]
+  }
+]

@@ -1,8 +1,14 @@
 import React from 'react';
 import apps from '../../API/ServisecsAPIs/servicesData.json';
 import { motion } from 'framer-motion';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 function AppTypes() {
+
+  const navigate = useNavigate();
+
+
+
   const zoomVariants = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1 }
@@ -38,13 +44,20 @@ function AppTypes() {
                       </li>
                     ))}
                   </ul>
-                  <a href="#" className="btn btn-danger mt-auto">Book Free Consultation</a>
+                  <NavLink to="/contact" className="btn btn-danger mt-auto">Book Free Consultation</NavLink>
+
+      
+
                 </div>
               </div>
             </motion.div>
           ))}
         </div>
+
+  
       </div>
+
+
     </section>
   );
 }

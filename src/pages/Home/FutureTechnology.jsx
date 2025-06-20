@@ -1,6 +1,7 @@
 import React from 'react';
 import apps from '../../API/ServisecsAPIs/servicesData.json';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function FutureTechnology () {
   const zoomVariants = {
@@ -38,7 +39,7 @@ function FutureTechnology () {
                       </li>
                     ))}
                   </ul>
-                  <a href="#" className="btn btn-danger mt-auto">Book Free Consultation</a>
+                  <Link to="/contact" className="btn btn-danger mt-auto">Book Free Consultation</Link>
                 </div>
               </div>
             </motion.div>

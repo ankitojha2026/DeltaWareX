@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import pricingPlans from '../../API/ServisecsAPIs/pricingPlans.json';
+import { Link } from 'react-router-dom';
 
 function Pricing() {
   return (
@@ -46,7 +47,7 @@ function Pricing() {
                   ))}
                 </ul>
                 <p className="display-6 text-danger mb-4">{plan.price}</p>
-                <a href="#" className="btn btn-danger btn-lg">Book Free Consultancy</a>
+                <Link to="/contact" className="btn btn-danger btn-lg">Book Free Consultancy</Link>
               </div>
             </SwiperSlide>
           ))}

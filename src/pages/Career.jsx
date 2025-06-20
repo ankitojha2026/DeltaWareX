@@ -47,7 +47,7 @@ const Career = () => {
           className="text-center text-muted mb-5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.6 }}
+          transition={{ delay: 0.3, duration: 0.2 }}
         >
           Choose your future path from our top trending technologies and certification programs.
         </motion.p>
@@ -59,12 +59,12 @@ const Career = () => {
             variants={sectionVariant}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: true }}
             className="mb-5"
           >
             <h1 className="fw-semibold pb-2 mb-4" style={{ color: '#d31b62' }}>
               {section.section}
-              <hr className="opacity-100 my-3" style={{ color: '#d31b62', border: '2px solid #d31b62' }} />
+              <hr className="opacity-100 my-2" style={{ color: '#d31b62', border: '2px solid #d31b62' }} />
             </h1>
 
             <div className="row g-4">
@@ -76,7 +76,8 @@ const Career = () => {
                   variants={cardVariant}
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true, amount: 0.3 }}
+viewport={{ once: false, amount: 0.1 }}
+
                 >
                   <CourseCard
                     image={`/cources/${course.image}`}

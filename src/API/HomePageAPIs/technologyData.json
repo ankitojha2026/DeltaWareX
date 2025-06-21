@@ -2,57 +2,121 @@
   {
     "id": 1,
     "title": "Cyber Security Certification",
-    "description": "Learn to protect systems and networks from cyber threats with our comprehensive certification program.",
+    "subtitle": "Master Ethical Hacking & Network Defense",
+    "description": "Learn to protect systems and networks from cyber threats through real-world tools, ethical hacking, and vulnerability management.",
     "rating": 5,
-    "image": "https://media.istockphoto.com/id/2160336602/photo/shield-lock-multi-levels-security-system-wide-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=3xXak54BP-GGnTOgMaAj68Uvt5t8LQDPXvgud4HFEwE="
+    "image": "https://media.istockphoto.com/id/2160336602/photo/shield-lock-multi-levels-security-system-wide-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=3xXak54BP-GGnTOgMaAj68Uvt5t8LQDPXvgud4HFEwE=",
+    "points": [
+      "Network security & firewalls",
+      "Ethical hacking practices",
+      "Wireshark, Metasploit, Nmap tools",
+      "Real-time cyber attack simulations"
+    ],
+    "price": "₹8,999"
   },
   {
     "id": 2,
     "title": "Artificial Intelligence Certification",
-    "description": "Master AI concepts and techniques to build intelligent systems and applications.",
+    "subtitle": "AI, Machine Learning & Deep Learning Fundamentals",
+    "description": "Master AI concepts and techniques to build intelligent systems and applications using real-world datasets and models.",
     "rating": 4,
-    "image": "https://plus.unsplash.com/premium_photo-1676637656166-cb7b3a43b81a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEFydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2UlMjBDZXJ0aWZpY2F0aW9ufGVufDB8fDB8fHww"
+    "image": "https://plus.unsplash.com/premium_photo-1676637656166-cb7b3a43b81a?w=1000&auto=format&fit=crop&q=60",
+    "points": [
+      "Supervised & unsupervised learning",
+      "Neural networks with TensorFlow",
+      "Natural language processing (NLP)",
+      "AI project with real-world data"
+    ],
+    "price": "₹12,499"
   },
   {
     "id": 3,
     "title": "Cloud Computing Certification",
-    "description": "Gain expertise in cloud technologies to design and manage scalable cloud solutions.",
+    "subtitle": "Deploy & Manage Cloud Infrastructure on AWS & Azure",
+    "description": "Gain expertise in cloud platforms, learn virtualization, and manage scalable solutions using AWS, Azure, and DevOps pipelines.",
     "rating": 4,
-    "image": "https://plus.unsplash.com/premium_photo-1733306493254-52b143296396?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNsb3VkJTIwY29tcHV0aW5nfGVufDB8fDB8fHww"
+    "image": "https://plus.unsplash.com/premium_photo-1733306493254-52b143296396?w=1000&auto=format&fit=crop&q=60",
+    "points": [
+      "AWS EC2, S3, Lambda hands-on",
+      "Azure cloud basics",
+      "Docker & Kubernetes integration",
+      "Cost optimization and deployment"
+    ],
+    "price": "₹10,999"
   },
   {
     "id": 4,
     "title": "Blockchain Certification",
-    "description": "Explore blockchain technology and learn to develop secure, decentralized applications.",
+    "subtitle": "Build Secure & Decentralized Blockchain Apps",
+    "description": "Explore blockchain technology and develop smart contracts and decentralized apps using Ethereum and Solidity.",
     "rating": 3,
-    "image": "https://media.istockphoto.com/id/689271900/photo/chosing-blockchain.webp?a=1&b=1&s=612x612&w=0&k=20&c=2ozDHznB9yGRosgtd-sOK418KkExkOHNi_B-ysFM-EQ="
+    "image": "https://media.istockphoto.com/id/689271900/photo/chosing-blockchain.webp?a=1&b=1&s=612x612&w=0&k=20&c=2ozDHznB9yGRosgtd-sOK418KkExkOHNi_B-ysFM-EQ=",
+    "points": [
+      "Blockchain fundamentals",
+      "Smart contracts with Solidity",
+      "Create DApps with Web3.js",
+      "Ethereum & wallet integration"
+    ],
+    "price": "₹11,499"
   },
   {
     "id": 5,
     "title": "Full Stack Web Development",
-    "description": "Become a full-stack web developer with hands-on training in HTML, CSS, JavaScript, React, Node.js, and more.",
+    "subtitle": "Frontend + Backend Development with MERN Stack",
+    "description": "Become a full-stack web developer with hands-on training in HTML, CSS, JavaScript, React, Node.js, MongoDB, and Express.",
     "rating": 5,
-    "image": "https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?q=80&w=1170&auto=format&fit=crop",
+    "points": [
+      "Frontend with React.js",
+      "Backend with Node.js & Express",
+      "MongoDB integration",
+      "RESTful API development"
+    ],
+    "price": "₹13,999"
   },
   {
     "id": 6,
     "title": "DevOps Certification",
-    "description": "Get trained in CI/CD, Jenkins, Docker, Kubernetes, and infrastructure automation tools.",
+    "subtitle": "Continuous Integration and Delivery with Jenkins & Docker",
+    "description": "Get trained in CI/CD pipelines, containerization with Docker, Kubernetes orchestration, and monitoring using tools like Prometheus and Grafana.",
     "rating": 4,
-    "image": "https://media.istockphoto.com/id/1435212834/photo/devops-software-development-operations-programmer-administration-system-life-cycle-quality.webp?a=1&b=1&s=612x612&w=0&k=20&c=2BmXzn7hR98y3MniPHqJG5w_Q0pqqJucHGC7JsTP6j8="
+    "image": "https://media.istockphoto.com/id/1435212834/photo/devops-software-development-operations-programmer-administration-system-life-cycle-quality.webp",
+    "points": [
+      "CI/CD with Jenkins",
+      "Docker & Kubernetes setup",
+      "Version control with Git/GitHub",
+      "Monitoring & alerting tools"
+    ],
+    "price": "₹9,999"
   },
   {
     "id": 7,
     "title": "Data Science with Python",
-    "description": "Analyze and visualize data using Python libraries like Pandas, NumPy, and Matplotlib.",
+    "subtitle": "Hands-on Data Analysis & Visualization",
+    "description": "Analyze and visualize data using Python libraries like Pandas, NumPy, Seaborn, and Matplotlib. Build models using real-world datasets.",
     "rating": 5,
-    "image": "https://images.unsplash.com/photo-1649180556628-9ba704115795?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHl0aG9uJTIwbGFuZ3VhZ2V8ZW58MHx8MHx8fDA%3D"
+    "image": "https://images.unsplash.com/photo-1649180556628-9ba704115795?w=1000&auto=format&fit=crop",
+    "points": [
+      "Data wrangling with Pandas",
+      "Visualization using Seaborn",
+      "Numpy, Scikit-learn, Matplotlib",
+      "Mini projects on real-world datasets"
+    ],
+    "price": "₹10,499"
   },
   {
     "id": 8,
     "title": "UI/UX Design Certification",
-    "description": "Learn UI/UX design principles, wireframing, prototyping, and tools like Figma and Adobe XD.",
+    "subtitle": "User-Centered Design with Figma & Adobe XD",
+    "description": "Learn UI/UX principles, create wireframes, prototypes, and design interfaces for web and mobile apps with industry-leading tools.",
     "rating": 4,
-    "image": "https://media.istockphoto.com/id/1961529307/photo/panorama-banner-of-startup-company-employee-planning-on-user-interface-synergic.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZIOn552qOhYR1s_R2FbPh4AJWV9AVhZ-HmCnI0BWubo="
+    "image": "https://media.istockphoto.com/id/1961529307/photo/panorama-banner-of-startup-company-employee-planning-on-user-interface-synergic.webp",
+    "points": [
+      "Wireframing & prototyping",
+      "Figma & Adobe XD hands-on",
+      "User testing & feedback analysis",
+      "Responsive design practices"
+    ],
+    "price": "₹7,999"
   }
 ]
